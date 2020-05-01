@@ -103,7 +103,7 @@ def make_table_data(infos):
     res = []
     for info in infos:
         res.append(make_row(info))
-        data["rows"] = res
+    data["rows"] = res
     return data
 
 
